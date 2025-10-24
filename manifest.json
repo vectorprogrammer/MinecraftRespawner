@@ -1,0 +1,16 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Respawn Pack",
+    "description": "Adds natural respawning for bosses, ores, and resets vaults",
+    "uuid": "e1a1b1c1-d1e1-f1a1-b1c1-d1e1f1a1b1c1",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "f1a1b1c1-d1e1-e1a1-b1c1-d1e1f1a1b1c1",
+      "version": [1, 0, 0]
+    }
+  ]
+}
