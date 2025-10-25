@@ -1,0 +1,86 @@
+{
+  "tiers": [
+    {
+      "total_exp_required": 0,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [{ "item": "minecraft:rotten_flesh", "quantity": 32 }],
+              "gives": [{ "item": "minecraft:emerald", "quantity": 1 }]
+            },
+            {
+              "wants": [{ "item": "minecraft:emerald", "quantity": 1 }],
+              "gives": [{ "item": "minecraft:redstone", "quantity": 2 }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 10,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [{ "item": "minecraft:emerald", "quantity": 1 }],
+              "gives": [{ "item": "minecraft:lapis_lazuli", "quantity": 1 }]
+            },
+            {
+              "wants": [{ "item": "minecraft:emerald", "quantity": 1 }],
+              "gives": [{ "item": "minecraft:glowstone", "quantity": 1 }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 70,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [{ "item": "minecraft:emerald", "quantity": 5 }],
+              "gives": [{ "item": "minecraft:ender_pearl", "quantity": 1 }]
+            },
+            {
+              "wants": [{ "item": "minecraft:scute", "quantity": 4 }],
+              "gives": [{ "item": "minecraft:emerald", "quantity": 1 }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 150,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [{ "item": "minecraft:emerald", "quantity": 3 }],
+              "gives": [{ "item": "minecraft:experience_bottle", "quantity": 1 }]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "total_exp_required": 250,
+      "groups": [
+        {
+          "num_to_select": 1,
+          "trades": [
+            {
+              "wants": [{ "item": "minecraft:emerald", "quantity": 5 }],
+              "gives": [{ "item": "minecraft:dragon_breath", "quantity": 1 }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
