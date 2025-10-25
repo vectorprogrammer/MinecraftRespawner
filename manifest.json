@@ -2,7 +2,7 @@
   "format_version": 2,
   "header": {
     "name": "Respawn Pack",
-    "description": "Adds natural respawning for bosses, ores, and resets vaults",
+    "description": "Allows Elder Guardians, Evokers and Shulkers to respawn in the game Minecraft. Master Clerics now trade Dragon's Breath as well",
     "uuid": "e1a1b1c1-d1e1-f1a1-b1c1-d1e1f1a1b1c1",
     "version": [1, 0, 0]
   },
