@@ -75,7 +75,7 @@
           "num_to_select": 1,
           "trades": [
             {
-              "wants": [{ "item": "minecraft:emerald", "quantity": 5 }],
+              "wants": [{ "item": "minecraft:emerald", "quantity": 7 }],
               "gives": [{ "item": "minecraft:dragon_breath", "quantity": 1 }]
             }
           ]
