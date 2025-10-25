@@ -1,0 +1,58 @@
+{
+  "minecraft:villager_trade_table": {
+    "tiers": [
+      // Tier 1: Novice (vanilla trades)
+      {
+        "tier": 1,
+        "trades": "default"
+      },
+      // Tier 2: Apprentice (vanilla trades)
+      {
+        "tier": 2,
+        "trades": "default"
+      },
+      // Tier 3: Journeyman (vanilla + custom trades)
+      {
+        "tier": 3,
+        "trades": [
+          "default",
+          {
+            "reward_exp": true,
+            "max_uses": 12,
+            "buy": {
+              "item": "minecraft:emerald",
+              "count": 6
+            },
+            "sell": {
+              "item": "minecraft:bucket",
+              "data": 0,
+              "nbt_b64": "eyJFbnRpdHlUYWciOnsiaWQiOiJtaW5lY3JhZnQ6YXhvbG90bCJ9fQ=="
+            }
+          },
+          {
+            "reward_exp": true,
+            "max_uses": 12,
+            "buy": {
+              "item": "minecraft:emerald",
+              "count": 3
+            },
+            "sell": {
+              "item": "minecraft:pufferfish_bucket",
+              "count": 6
+            }
+          }
+        ]
+      },
+      // Tier 4: Expert (vanilla trades)
+      {
+        "tier": 4,
+        "trades": "default"
+      },
+      // Tier 5: Master (vanilla trades)
+      {
+        "tier": 5,
+        "trades": "default"
+      }
+    ]
+  }
+}
