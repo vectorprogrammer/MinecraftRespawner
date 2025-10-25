@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraftrespawner:enchanted_golden_apple_recipe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "EEE",
+      "EAE",
+      "EEE"
+    ],
+    "key": {
+      "A": { "item": "minecraft:golden_apple" },
+      "E": { "item": "minecraft:experience_bottle" }
+    },
+    "result": {
+      "item": "minecraft:enchanted_golden_apple",
+      "count": 1
+    }
+  }
+}
