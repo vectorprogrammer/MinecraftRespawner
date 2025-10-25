@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "minecraftrespawner:wildfire"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_block_filter": ["netherrack"],
+        "minecraft:spawns_under_block_filter": ["air"],
+        "minecraft:weight": 10,
+        "minecraft:biome_filter": ["nether_wastes", "basalt_deltas"]
+      }
+    ]
+  }
+}
