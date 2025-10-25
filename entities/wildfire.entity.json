@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraftrespawner:wildfire",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["monster", "wildfire", "blaze"]
+      },
+      "minecraft:nameable": {},
+      "minecraft:health": { "value": 60, "max": 60 },
+      "minecraft:movement": { "value": 0.25 },
+      "minecraft:attack": {
+        "damage": 8,
+        "effect": "fire"
+      },
+      "minecraft:fire_immune": {},
+      "minecraft:loot": {
+        "table": "loot_tables/entities/wildfire.json"
+      },
+      "minecraft:behavior.summon_entity": {
+        "entity": "minecraft:blaze",
+        "spawn_interval": 400,
+        "spawn_count": 2,
+        "spawn_radius": 5
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 1
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      }
+    }
+  }
+}
