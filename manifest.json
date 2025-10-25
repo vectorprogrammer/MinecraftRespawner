@@ -2,9 +2,10 @@
   "format_version": 2,
   "header": {
     "name": "Respawn Pack",
-    "description": "Allows Elder Guardians, Evokers and Shulkers to respawn in the game Minecraft. Master Clerics now trade Dragon's Breath as well",
+    "description": "Adds natural respawning for Elder Guardians, Shulkers and Evokers in the game Minecraft, and allows Master-level Cleric villagers to trade Dragon's Breath",
     "uuid": "e1a1b1c1-d1e1-f1a1-b1c1-d1e1f1a1b1c1",
-    "version": [1, 0, 0]
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
   },
   "modules": [
     {
