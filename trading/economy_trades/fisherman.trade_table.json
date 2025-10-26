@@ -1,0 +1,114 @@
+{
+  "tiers": [
+    {
+      "tier": 1,
+      "trades": [
+        {
+          "wants": [
+            { "item": "string", "quantity": 20 }
+          ],
+          "gives": [
+            { "item": "emerald", "quantity": 1 }
+          ],
+          "max_uses": 16,
+          "reward_exp": true
+        },
+        {
+          "wants": [
+            { "item": "coal", "quantity": 10 }
+          ],
+          "gives": [
+            { "item": "emerald", "quantity": 1 }
+          ],
+          "max_uses": 16,
+          "reward_exp": true
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "trades": [
+        {
+          "wants": [
+            { "item": "cooked_cod", "quantity": 6 }
+          ],
+          "gives": [
+            { "item": "emerald", "quantity": 1 }
+          ],
+          "max_uses": 16,
+          "reward_exp": true
+        },
+        {
+          "wants": [
+            { "item": "cooked_salmon", "quantity": 6 }
+          ],
+          "gives": [
+            { "item": "emerald", "quantity": 1 }
+          ],
+          "max_uses": 16,
+          "reward_exp": true
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "trades": [
+        {
+          "wants": [
+            { "item": "emerald", "quantity": 6 }
+          ],
+          "gives": [
+            {
+              "item": "bucket",
+              "quantity": 1,
+              "data": 0,
+              "nbt_b64": "eyJFbnRpdHlUYWciOnsiaWQiOiJtaW5lY3JhZnQ6YXhvbG90bCJ9fQ=="
+            }
+          ],
+          "max_uses": 12,
+          "reward_exp": true
+        },
+        {
+          "wants": [
+            { "item": "emerald", "quantity": 3 }
+          ],
+          "gives": [
+            { "item": "pufferfish_bucket", "quantity": 6 }
+          ],
+          "max_uses": 12,
+          "reward_exp": true
+        }
+      ]
+    },
+    {
+      "tier": 4,
+      "trades": [
+        {
+          "wants": [
+            { "item": "emerald", "quantity": 5 }
+          ],
+          "gives": [
+            { "item": "campfire", "quantity": 1 }
+          ],
+          "max_uses": 12,
+          "reward_exp": true
+        }
+      ]
+    },
+    {
+      "tier": 5,
+      "trades": [
+        {
+          "wants": [
+            { "item": "emerald", "quantity": 7 }
+          ],
+          "gives": [
+            { "item": "barrel", "quantity": 1 }
+          ],
+          "max_uses": 12,
+          "reward_exp": true
+        }
+      ]
+    }
+  ]
+}
