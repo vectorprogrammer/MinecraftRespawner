@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "minecraftrespawner:dragon_breath"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "   ",
+      "   ",
+      "EBH"
+    ],
+    "key": {
+      "E": { "item": "ender_eye" },
+      "B": { "item": "blaze_powder" },
+      "H": { "item": "glass_bottle" }
+    },
+    "result": {
+      "item": "dragon_breath",
+      "count": 2
+    }
+  }
+}
