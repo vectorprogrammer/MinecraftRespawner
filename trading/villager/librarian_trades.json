@@ -5,16 +5,27 @@
       "trades": ["default"]
     },
     {
+      "tier": 2,
+      "trades":["default"]
+    },
+    {
       "tier": 3,
       "trades": [
         "default",
         {
           "wants": [{ "item": "minecraft:emerald", "count": 50 }],
           "reward": { "items": [{ "item": "minecraft:anvil", "count": 1 }] },
-          "max_uses": 999999,
+          "max_uses": 16,
           "experience_reward": true
         }
       ]
     }
+    {
+      "tier": 4,
+      "trades":["default"]
+    }
+    {
+      "tier": 5,
+      "trades":["default"]
   ]
 }
